@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Unlock&display=swap');
+
+body {
+    font-family: 'Ubuntu', sana-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 103px;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 20px;
+    color: #C4C4C4;
+    margin-left: 40px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 39px;
+    color: #25DC58;
+    width: 500px;
+    margin-left: 40px;
+}
+
+#pohuy{
+    color: #F849DC;
+    font-family: Unlock;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn {
+   font-size: 25px;
+   width: 170px;
+   height: 50px;
+   margin-left: 40px;
+   background-color: blue;
+   color: white;
+   margin-top: 30px;
+
+}
